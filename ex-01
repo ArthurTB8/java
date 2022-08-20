@@ -15,12 +15,12 @@ public class Main
     System.out.print("Informe o valor do metro quadrado: ");
     metroQuadrado = teclado.nextFloat();
     
-    area = lateral * frente;
+    area  =  lateral * frente;
     
     valor = metroQuadrado * area;
     
     System.out.print("Area total do terreno de " +lateral+ "mts de lateral é " +area+ " mts \n");
-     System.out.print("O valor desse terreno é R$" +valor );
+     System.out.printf("O valor desse terreno é %.2f", +valor);
    
 	}
 }
