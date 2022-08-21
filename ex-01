@@ -19,7 +19,7 @@ public class Main
     
     valor = metroQuadrado * area;
     
-    System.out.print("Area total do terreno de " +lateral+ "mts de lateral é " +area+ " mts \n");
+    System.out.print("Area total do terreno de " +lateral+ " mts de lateral é " +area+ " mts \n");
      System.out.printf("O valor desse terreno é %.2f", +valor);
    
 	}
