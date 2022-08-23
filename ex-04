@@ -15,6 +15,7 @@ public class Exer04 {
        System.out.println(         );
         i = 1;
 
+        System.out.println("5 x 0 = 0        5 / 0 = nao existe divisao por zero");
         while (i <= 10) {
             System.out.print("5 x ");
             System.out.print( +(int) i + " = " + (int)(5 * i));
